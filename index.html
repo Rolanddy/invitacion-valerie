@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Invitación</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0b0f;
+      color: #ffffff;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    .card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 18px;
+      overflow: hidden;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: #000;
+    }
+    h1 {
+      font-size: 24px;
+      margin: 14px 0 6px;
+    }
+    p {
+      margin: 0 0 14px;
+      line-height: 1.5;
+      color: rgba(255,255,255,0.85);
+    }
+    .btns {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 14px;
+    }
+    a.btn {
+      flex: 1;
+      min-width: 220px;
+      text-align: center;
+      text-decoration: none;
+      padding: 14px 12px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.25);
+      color: #ffffff;
+      font-weight: bold;
+    }
+    a.btn.primary {
+      background: #ffffff;
+      color: #0b0b0f;
+    }
+    .footer {
+      padding: 0 14px 16px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.7);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+
+      <video controls playsinline>
+        <source src="Invitacion.mp4" type="video/mp4">
+        Tu navegador no soporta video.
+      </video>
+
+      <div style="padding:14px">
+        <h1>Estás invitado cordialmente a los 5 años de Valerie Batista</h1>
+        <p>Sábado 21 de Febrero · 6:00 PM a 10:30 PM</p>
+        <p><strong>Dirección:</strong> PON AQUÍ LA DIRECCIÓN COMPLETA</p>
+      </div>
+
+      <div class="btns">
+        <a class="btn" href="PON_AQUI_LINK_MAPS" target="_blank">
+          📍 Ver ubicación en el mapa
+        </a>
+        <a class="btn primary" href="PON_AQUI_LINK_RSVP" target="_blank">
+          ✅ Confirmar asistencia
+        </a>
+      </div>
+
+      <div class="footer">
+        Gracias por confirmar. ¡Te esperamos con mucha alegría! 🎉
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
